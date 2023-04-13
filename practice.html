@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="one">hello</div>
+    <ul class="list">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+</body>
+<script>
+    let list = document.getElementsByTagName('li');
+    console.log(list[0].className="hii")
+    let value = 0;
+    // function change(){
+    //     if(value==0){
+    //         value=1;
+    //     }
+    //     else{
+    //         value=10;
+    //     }
+    // }
+    console.log(value)
+    let one = document.getElementById('one');
+    function addiotion() {
+        value=value+10
+        
+    }
+    addiotion()
+    console.log(value)
+</script>
+
+</html>
